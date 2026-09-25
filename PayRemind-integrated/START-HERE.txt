@@ -1,0 +1,15 @@
+PAYREMIND - QUICK START
+
+1. Make sure MongoDB is running.
+2. Terminal 1:
+   cd payremind-backend
+   npm install
+   npm run dev
+3. Terminal 2:
+   cd payremind-frontend
+   npm install
+   npm run dev
+4. Open http://localhost:5173
+5. Create an account from Sign Up. The account is stored in MongoDB and a JWT is returned.
+
+If you use MongoDB Atlas instead of local MongoDB, edit payremind-backend/.env and change MONGO_URI.
